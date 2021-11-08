@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeesAPI</name>
+    </assembly>
+    <members>
+        <member name="M:EmployeesAPI.Controllers.EmployeeController.GetEmployees">
+            <summary>
+                Returns a list of employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeesAPI.Controllers.EmployeeController.CreateEmployee(EmployeesAPI.Models.Employee)">
+            <summary>
+                Create an employee
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeesAPI.Controllers.EmployeeController.GetEmployeeById(System.Guid)">
+            <summary>
+                Get employee by id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeesAPI.Controllers.EmployeeController.UpdateEmployee(System.Guid,EmployeesAPI.Models.Employee)">
+            <summary>
+                Update employee by id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EmployeesAPI.Controllers.EmployeeController.DeleteEmployee(System.Guid)">
+            <summary>
+                Delete employee by id
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

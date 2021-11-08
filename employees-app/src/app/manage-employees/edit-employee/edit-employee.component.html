@@ -1,0 +1,16 @@
+<h1>Edit employee</h1>
+<form class="edit-employee-form">
+    <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput [(ngModel)]="firstName" name="firstname" required/>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input matInput [(ngModel)]="lastName" name="lastname" required/>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Contact</mat-label>
+        <textarea matInput [(ngModel)]="contact" name="contact" required></textarea>
+    </mat-form-field>
+    <button mat-button (click)="editEmployee()">Edit</button>
+</form>

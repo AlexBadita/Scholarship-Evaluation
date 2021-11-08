@@ -1,0 +1,16 @@
+<h1>Add an employee</h1>
+<form class="add-employee-form">
+    <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="Ex: Ion" [(ngModel)]="firstName" name="firstname" required/>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Ex: Popescu" [(ngModel)]="lastName" name="lastname" required/>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Contact</mat-label>
+        <textarea matInput placeholder="Ex: Phone number 014098421, email example@example.com" [(ngModel)]="contact" name="contact" required></textarea>
+    </mat-form-field>
+    <button mat-button (click)="addEmployee()">Add</button>
+</form>

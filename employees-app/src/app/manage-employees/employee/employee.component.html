@@ -1,0 +1,21 @@
+<div class="container">
+<table>
+    <tr>
+        <th> First Name </th>
+        <th> Last Name </th>
+        <th> Contact </th>
+    </tr>
+
+    <tr *ngFor="let employee of employees">
+        <td> {{employee.firstName}} </td>
+        <td> {{employee.lastName}} </td>
+        <td> {{employee.contact}} </td>
+        <td>
+            <button mat-raised-button color="primary" (click)="editEmployee(employee.id)">EDIT</button>
+        </td>
+        <td>
+            <button mat-raised-button color="primary" (click)="deleteEmployee(employee.id)">DELETE</button>
+        </td>
+    </tr>
+</table>
+</div>
